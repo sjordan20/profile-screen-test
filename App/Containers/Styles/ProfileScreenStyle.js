@@ -33,7 +33,7 @@ export default StyleSheet.create({
   profileContainer: {
     width: '100%',
     height: 700,
-    backgroundColor: '#aeaeaeae',
+    backgroundColor: '#F7FAFB',
     display: "flex",
     alignItems: "center"
   },
@@ -42,7 +42,7 @@ export default StyleSheet.create({
     width: '95%',
     height: 250,
     backgroundColor: 'white',
-    marginTop: 20,
+    marginTop: 10,
     display: 'flex',
     alignItems: 'center',
 
@@ -77,5 +77,25 @@ export default StyleSheet.create({
     paddingRight: 10
   },
 
+  aboutContainer: {
+    width: '95%',
+    height: 400,
+    backgroundColor: 'white',
+    marginTop: 5,
+  },
+
+  aboutTitle: {
+    fontSize: 22,
+    marginTop: 15,
+    marginLeft: 5
+  },
+
+  aboutBody: {
+    fontSize: 16,
+    lineHeight: 20,
+    marginLeft: 5,
+    color: '#94A3B6'
+
+  }
 
 })
